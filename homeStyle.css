@@ -109,11 +109,11 @@
       
             input[type="checkbox"]:checked ~ ul{
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 
                 padding: 10px;
               
-                height: 5vh;
+                height: 23vh;
                
                
             }
@@ -154,11 +154,14 @@
             margin: 8px 0;
 
         }
+
+     
+        
           
         }
 
          h1{
-            font-size: 60px;
+            font-size: 4vw;
             font-family: Arial, sans-serif;
             margin-left: 70px;
             color: rgb(247, 244, 244);
